@@ -15,25 +15,7 @@ import { constants as zlibConstants } from 'zlib';
 
 const SUPPORTED_LANGUAGES = [
   'en',
-  'ar',
-  'be',
-  'da',
-  'ru',
-  'de',
-  'es',
-  'fr',
-  'id',
-  'it',
-  'nl',
-  'pt',
-  'sv',
-  'tr',
-  'vi',
-  'zh',
-  'zh-TW',
-  'ko',
   'ja',
-  'uk',
 ] as const;
 const LANG_REGEX = new RegExp(
   `^/(${SUPPORTED_LANGUAGES.join('|')})(?:/(.*))?$`
